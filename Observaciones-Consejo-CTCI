@@ -1,0 +1,45 @@
+# README.md:
+1. El link de "Panorama del Ecosistema de Ciencia, Tecnología, Conocimiento e Innovación en Chile de los últimos 10 años" no está activo.
+2. Mejorar la redacción de la descripción del repositorio, para que pueda ser consultado y utilizado por todo tipo de usuario.
+3. No se explica cómo se pueden utilizar los datos de las 2 carpetas que son definidas en el repositorio, pues no se explica cómo están organizados en las subcarpetas. Se sugiere que cada directorio tenga su README.md, de tal forma que quede más claro el contenido de la carpeta.
+
+# Licencia:
+No existe un archivo de licencia del repositorio, en este debería indicarse claramente las características y condiciones de uso previsto de los datos y del repositorio.
+
+# Datos:
+Es importante que se asegure la limpieza y que estén listos para utilizarse, por lo cual se requiere que se informe en los archivos README.md de cada carpeta:
+1. Consistencia: Los datos deben ser consistentes. No debería haber discrepancias en la forma en que se registran los datos. 
+2. Completitud: Verifica si hay datos faltantes en los conjuntos de datos. 
+3. Exactitud: Los datos deben ser precisos. 
+4. Relevancia: Informar si hay datos no relevantes para el propósito que puedan distorsionar los resultados.
+5. Unicidad: Datos duplicados pueden distorsionar resultados.
+Informar si se utilizaron bibliotecas de limpieza y análisis de datos (eg.: Pandas, NumPy).
+
+# Documentación:
+Incorporar a cada conjunto de datos su propia documentación, con el fin de facilitar el uso y consulta de cada uno de ellos por separado o en su conjunto. Esta debe explicar que contiene cada archivo, que significan las columnas y cualquier otra información relevante.
+
+# Código:
+Explicar dónde y cómo se utilizó el código para analizar y limpiar los datos. El código que contiene el repositorio no está comentado ni se explican gráficos y tablas out[] en los Notebooks. Deben permitir que sean consultados de forma fácil por el usuario.
+
+# Formatos de datos:
+Los formatos de datos van entre CSV y XLSX y objetos gráficos PNG y SVG, explicar porque se tienen formatos distintos.
+
+# Estructura del repositorio:
+El repositorio no está bien organizado, pues posee formas de organización de los datos disimiles entre /Caracterización CTCI en Salud/ y /Panorama CTCI/ lo que lo hace difícil de navegar, pues no posee documentación de la estructura ni de la data organizada.
+
+# Contribuciones:
+No hay directrices para aquel que quiera contribuir al repositorio. Debe incluirse.
+
+# Otros:
+Revisar si corresponde mantener archivos .gitkeep en directorios con Júpiter Notebooks.
+Como se relacionan los Notebooks entre sí y con los archivos en los directorios.
+Caracterización CTCI en Salud/Análisis de proyectos/ 
+Posee un README.md vacío 
+
+Caracterización CTCI en Salud/Gráficos/
+No se entrega información respecto a los 16 archivos (cada uno con una extensión .png y otra .svg)
+Panorama CTCI/
+No queda claro cómo se estructura la data en el directorio y subdirectorios
+
+Panorama CTCI/Estructura - Relaciones entre actores
+Única carpeta con README.md
